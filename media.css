@@ -63,19 +63,19 @@
         position: relative;
         margin-top: -100px;
         margin-left: 40px;
-        font-size: 45px;
+        font-size: 40px;
     }
     .HOME-CONTAINER .home .tit3{
         position: relative;
-        margin-left: -30px;
+        right: 20px;
         
-        font-size: 45px;
+        font-size: 40px;
     }
     .HOME-CONTAINER .home .tit2{
         position: relative;
-        left: 49%;
-        bottom: 12.5%;
-        font-size: 45px;
+        left: 43%;
+        bottom: 11.5%;
+        font-size: 40px;
     }
     .HOME-CONTAINER .home P{
         position: relative;
@@ -258,15 +258,31 @@
       }
     /* team end */
 
-    /* client start */
+    /* table start */
+    .form{
+        padding: 30px;
+    }
+    .form .btn5{
+        position: relative;
+        
+        padding: 15px 35px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ffaa17;
+        color: black;
+    }
+    .client-content2{
+        padding: 20px;
+    }
     .client-content2 .form{
         height: 70%;
-        width: 80%;
+        width: 90%;
         position: absolute;
-        top: 555rem;
-        left: 10%;
+        top: 520rem;
+        left: 5%;
         background-color: white;
         border-radius: 20px;
     }
-    /* client end */
+    /* table end */
 }
