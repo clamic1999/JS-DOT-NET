@@ -3,7 +3,9 @@
         overflow-x: hidden;
     }
     /* header */
-
+    header{
+        position: fixed;
+    }
     .hamburger{
         position: relative;
         height: 40px;
@@ -59,21 +61,24 @@
         color: black;
     }
     /* home start */
+    .HOME-CONTAINER{
+        margin-top: 100px;
+    }
     .HOME-CONTAINER .home .tit1 h1{
         position: relative;
         margin-top: -100px;
-        margin-left: 40px;
+        
         font-size: 40px;
     }
     .HOME-CONTAINER .home .tit3{
         position: relative;
-        right: 20px;
+        
         
         font-size: 40px;
     }
     .HOME-CONTAINER .home .tit2{
         position: relative;
-        left: 43%;
+        left: 48%;
         bottom: 11.5%;
         font-size: 40px;
     }
@@ -260,7 +265,7 @@
 
     /* table start */
     .form{
-        padding: 30px;
+        padding: 10px;
     }
     .form .btn5{
         position: relative;
@@ -273,10 +278,10 @@
         color: black;
     }
     .client-content2{
-        padding: 20px;
+        padding: 10px;
     }
     .client-content2 .form{
-        height: 70%;
+        height: 50%;
         width: 90%;
         position: absolute;
         top: 520rem;
