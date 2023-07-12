@@ -2,6 +2,9 @@
     body{
         overflow-x: hidden;
     }
+    html{
+        overflow-x: hidden;
+    }
     /* header */
     header{
         position: fixed;
@@ -76,7 +79,7 @@
         
         font-size: 40px;
     }
-    .HOME-CONTAINER .home .tit2{
+    .HOME-CONTAINER .home .tit1 .tit2{
         position: relative;
         left: 48%;
         bottom: 11.5%;
@@ -244,6 +247,295 @@
     .team-content1 h1{
         font-size: 35px;
     }
+    .slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.user-img{
+    position: absolute;
+    top: 70px;
+    right: 200px;
+    height: 100%;
+}
+.user-img img{
+    height: 60%;
+    border-radius: 10px;
+}
+.user-text{
+    background-color: #ffaa17;
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    padding: 45px;
+    z-index: 2;
+}
+.user-text p{
+    color: #b8cde5;
+    line-height: 24px;
+}
+.user-text h3{
+    margin: 15px 0 5px;
+}
+.team-content2{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 1295%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+.btn6{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #ffaa17;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.active2{
+    width: 45px;
+}
+.team-content3{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+    /* team end */
+
+    /* table start */
+    .form{
+        padding: 10px;
+    }
+    .form .btn5{
+        position: relative;
+        
+        padding: 15px 35px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ffaa17;
+        color: black;
+    }
+    .client-content2{
+        padding: 10px;
+    }
+    .client-content2 .form{
+        height: 40%;
+        width: 90%;
+        position: absolute;
+        top: 300rem;
+        left: 5%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    /* table end */
+}
+
+@media only screen and (max-width:500px){
+    .hamburger{
+        position: relative;
+        height: 40px;
+        background-color: black;
+        padding: 0 10px;
+        width: 50px;
+        display: block;
+        cursor: pointer;
+        bottom: 60px;
+        right: 50px;
+        
+    }
+    .hamburger .line{
+        position: relative;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+        top: 5px;
+    }
+    .nav .active{
+        height: 300px;
+    }
+    .nav{
+        height: 0;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: white;
+        transition: 0.2s;
+        
+        z-index: 2;
+    }
+    .nav ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav .active ul{
+        position: relative;
+        
+        opacity: 1;
+    }
+    .nav a{
+        position: relative;
+        right: 20px;
+        line-height: 2;
+        color: black;
+    }
+
+
+    .HOME-CONTAINER .home .tit1 h1{
+        position: relative;
+        margin-top: -100px;
+        
+        font-size: 40px;
+    }
+    .HOME-CONTAINER .home .tit3{
+        position: relative;
+        
+        
+        font-size: 40px;
+    }
+    .HOME-CONTAINER .home .tit2{
+        position: relative;
+        left: 42%;
+        bottom: 12.3%;
+        font-size: 40px;
+    }
+    .home-img img{
+        padding-top: 50px;
+        height: 80%;
+        margin-left: -50px;
+    }
+
+    /* services start */
+    .SERVICES-CONTAINER{
+        padding: 20px;
+    }
+    .services-content1{
+        text-align: center;
+        
+    }
+    .services-content1 h1{
+        font-size: 30px;
+    }
+
+    .services-content2{
+        padding: 10px;
+        
+    }
+    .services-content2 .card1{
+        padding: 10px;
+        width: 80%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .services-content2 .card1:hover{
+        background-color: #222429;
+        color: #676a6f;
+        border-radius: 5px;
+        transition: 1s;
+    }
+    .services-content2 .card1 i{
+        color: #ffaa17;
+    }
+    .services-content2 .card1 h1{
+        padding-top: 20px;
+    }
+    .services-content2 .card1 p{
+        padding-top: 20px;
+    }
+
+    /* projrct start */
+    .project-content1{
+        text-align: center;
+        padding: 15px;
+    }
+    .project-content1 h1{
+        font-size: 35px;
+    }
+    .project-content2 p:hover{
+        background-color: #222429;
+        color: white;
+    }
+    .project-content3{
+        padding: 40px;
+    }
+    .project-content3 .project-img img{
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .project-content3 .project-img .icon{
+        text-align: center;
+        color: #ffaa17;
+        position: relative;
+        bottom: 220px;
+        display: none;
+    }
+    .project-content3 .project-img:hover img{
+        
+        border: 10px solid black;
+        transform: scale(0.9);
+        
+    }
+    .project-content3 .project-img:hover .icon{
+        display: block;
+    
+    }
+    /* project end */
+
+    /* pricing start */
+    .PRICING-CONTAINER{
+        padding: 30px;
+    }
+    .pricing-content1{
+        text-align: center;
+        padding: 15px;
+    }
+    .pricing-content1 h1{
+        font-size: 35px;
+    }
+    .pricing-content2{
+        padding: 20px;
+    }
+    .pricing-content2 .card2{
+        margin-top: 15px;
+    }
+    .pricing-content2 .card3{
+        margin-top: 15px;
+    }
+    /* pricing end */
+
+    /* team start */
+    .team-content1{
+        text-align: center;
+        padding: 15px;
+    }
+    .team-content1 h1{
+        font-size: 35px;
+    }
     .swiper-slide {
         padding-top: 100px;
     }
@@ -284,7 +576,7 @@
         height: 50%;
         width: 90%;
         position: absolute;
-        top: 520rem;
+        top: 535rem;
         left: 5%;
         background-color: white;
         border-radius: 20px;

@@ -315,45 +315,77 @@ header .nav a:hover{
 .team-content1 h1{
     font-size: 70px;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    
+.slide-row{
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .swiper-slide img {
-    display: block;
+    width: 3200px;
+    transition: 0.5s;
+}
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.user-img img{
+    height: 100%;
+    border-radius: 10px;
+}
+.user-text{
+    background-color: #ffaa17;
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    padding: 45px;
+    z-index: 2;
+}
+.user-text p{
+    color: #b8cde5;
+    line-height: 24px;
+}
+.user-text h3{
+    margin: 35px 0 5px;
+}
+.team-content2{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 685%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+.btn6{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #ffaa17;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.active2{
+    width: 45px;
+}
+.team-content3{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-  }
-  .swiper-slide h1{
-    color: #ffaa17;
-    position: absolute;
-    top: 180px;
-    left: 32%;
-  }
-  .swiper-slide p{
-    color: #ffaa17;
-    position: absolute;
-    top: 230px;
-    left: 32%;
-  }
-
-  .swiper {
-    width: 100%;
-    height: 300px;
-    margin: 20px auto;
-  }
-  
+    overflow: hidden;
+}
 
 /* team end */
 

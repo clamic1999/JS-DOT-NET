@@ -5,59 +5,36 @@ hamburger=document.querySelector(".hamburger");
          }
 
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    centeredSlides: true,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+// testimonial
 
-  var appendNumber = 4;
-  var prependNumber = 1;
-  document
-    .querySelector(".prepend-2-slides")
-    .addEventListener("click", function (e) {
-      e.preventDefault();
-      swiper.prependSlide([
-        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-      ]);
-    });
-  document
-    .querySelector(".prepend-slide")
-    .addEventListener("click", function (e) {
-      e.preventDefault();
-      swiper.prependSlide(
-        '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
-      );
-    });
-  document
-    .querySelector(".append-slide")
-    .addEventListener("click", function (e) {
-      e.preventDefault();
-      swiper.appendSlide(
-        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
-      );
-    });
-  document
-    .querySelector(".append-2-slides")
-    .addEventListener("click", function (e) {
-      e.preventDefault();
-      swiper.appendSlide([
-        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-        '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-      ]);
-    });
+var btn = document.getElementsByClassName("btn6");
+var slide = document.getElementById("slide");
 
-
-    
-
-    
+btn[0].onclick = function(){
+  slide.style.transform = "translateX(0px)";
+  for(i=0;i<4;i++){
+    btn[i].classList.remove("active2");
+  }
+  this.classList.add("active2");
+}
+btn[1].onclick = function(){
+  slide.style.transform = "translateX(-800px)";
+  for(i=0;i<4;i++){
+    btn[i].classList.remove("active2");
+  }
+  this.classList.add("active2");
+}
+btn[2].onclick = function(){
+  slide.style.transform = "translateX(-1600px)";
+  for(i=0;i<4;i++){
+    btn[i].classList.remove("active2");
+  }
+  this.classList.add("active2");
+}
+btn[3].onclick = function(){
+  slide.style.transform = "translateX(-2400px)";
+  for(i=0;i<4;i++){
+    btn[i].classList.remove("active2");
+  }
+  this.classList.add("active2");
+}
