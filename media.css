@@ -260,7 +260,7 @@
 .user-img{
     position: absolute;
     top: 70px;
-    right: 200px;
+    right: 420px;
     height: 100%;
 }
 .user-img img{
@@ -272,7 +272,7 @@
     width: 200px;
     height: 170px;
     position: absolute;
-    left: 200px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 10px;
@@ -287,11 +287,12 @@
     margin: 15px 0 5px;
 }
 .team-content2{
-    width: 800px;
+    width: 400px;
     height: 400px;
     position: absolute;
     top: 1295%;
     left: 50%;
+    background-color: #676a6f;
     transform: translate(-50%,-50%);
 }
 .indicator{
