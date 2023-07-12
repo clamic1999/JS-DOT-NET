@@ -79,9 +79,9 @@
         
         font-size: 40px;
     }
-    .HOME-CONTAINER .home .tit1 .tit2{
+    .HOME-CONTAINER .home .tit1 #tit2{
         position: relative;
-        left: 48%;
+        left: 49%;
         bottom: 11.5%;
         font-size: 40px;
     }
@@ -419,9 +419,9 @@
         
         font-size: 40px;
     }
-    .HOME-CONTAINER .home .tit2{
+    .HOME-CONTAINER .home #tit2{
         position: relative;
-        left: 42%;
+        left: 40%;
         bottom: 12.3%;
         font-size: 40px;
     }
@@ -483,6 +483,7 @@
     }
     .project-content3{
         padding: 40px;
+        margin-left: 20px;
     }
     .project-content3 .project-img img{
         border-radius: 5px;
@@ -537,23 +538,78 @@
     .team-content1 h1{
         font-size: 35px;
     }
-    .swiper-slide {
-        padding-top: 100px;
+    .slide-row{
+        display: flex;
+        width: 3200px;
+        transition: 0.5s;
     }
-    .swiper-slide h1{
-        color: #ffaa17;
+    .slide-col{
+        width: 800px;
+        height: 400px;
+        position: relative;
+    }
+    .user-img{
         position: absolute;
-        top: 220px;
-        left: 25%;
-        font-size: 12px;
-      }
-      .swiper-slide p{
-        color: #ffaa17;
+        top: 70px;
+        right: 420px;
+        height: 100%;
+    }
+    .user-img img{
+        height: 60%;
+        border-radius: 10px;
+    }
+    .user-text{
+        background-color: #ffaa17;
+        width: 200px;
+        height: 170px;
         position: absolute;
-        top: 230px;
-        left: 25%;
-        font-size: 10px;
-      }
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 10px;
+        padding: 45px;
+        z-index: 2;
+    }
+    .user-text p{
+        color: #b8cde5;
+        line-height: 24px;
+    }
+    .user-text h3{
+        margin: 15px 0 5px;
+    }
+    .team-content2{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 505rem;
+        left: 50%;
+        background-color: #676a6f;
+        transform: translate(-50%,-50%);
+    }
+    .indicator{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -50px;
+    }
+    .btn6{
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin: 4px;
+        border-radius: 15px;
+        background: #ffaa17;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .active2{
+        width: 45px;
+    }
+    .team-content3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
     /* team end */
 
     /* table start */
@@ -573,7 +629,7 @@
     .client-content2{
         padding: 10px;
     }
-    .client-content2 .form{
+    .client-content2 #form{
         height: 50%;
         width: 90%;
         position: absolute;
