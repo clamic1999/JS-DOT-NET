@@ -290,7 +290,7 @@
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 1295%;
+    top: 475rem;
     left: 50%;
     background-color: #676a6f;
     transform: translate(-50%,-50%);
@@ -338,11 +338,11 @@
     .client-content2{
         padding: 10px;
     }
-    .client-content2 .form{
+    .client-content2 #form{
         height: 40%;
         width: 90%;
         position: absolute;
-        top: 300rem;
+        top: 505rem;
         left: 5%;
         background-color: white;
         border-radius: 20px;
