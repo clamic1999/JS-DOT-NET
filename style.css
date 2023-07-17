@@ -371,9 +371,9 @@ header .nav a:hover{
 }
 .team-content2{
     width: 800px;
-    height: 400px;
+    height: 350px;
     position: absolute;
-    top: 286rem;
+    top: 280rem;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -433,7 +433,7 @@ header .nav a:hover{
     height: 70%;
     width: 50%;
     position: absolute;
-    top: 313rem;
+    top: 310rem;
     left: 25%;
     background-color: white;
     border-radius: 20px;
