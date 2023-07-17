@@ -23,7 +23,22 @@ header{
     left: 30px;
     font-size: 35px;
 }
-.nav ul{
+.header-content ul{
+    display: flex;
+    margin-top: 40px;
+}
+.header-content li a{
+    position: relative;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.header-content .active{
+    color: #ffad4f;
+}
+/* .nav ul{
     display: flex;
     margin-left: 35%;
     margin-top: -20px;
@@ -44,8 +59,8 @@ header{
 }
 header .nav a:hover{
     color: #ffad4f;
-}
-.hamburger{
+} */
+.menu{
     display: none;
 }
 

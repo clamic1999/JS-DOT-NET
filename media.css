@@ -9,27 +9,39 @@
     header{
         position: fixed;
     }
-    .hamburger{
-        position: relative;
-        height: 40px;
-        background-color: black;
-        padding: 0 10px;
-        width: 50px;
+    ul .slide{
+        right: 0;
+        transition: 2s;
+    }
+    .header-content ul{
+        position: fixed;
+        right: -100%;
+        width: 100%;
         display: block;
-        cursor: pointer;
-        bottom: 60px;
-        right: 20px;
-        
+        text-align: center;
+        margin-top: 100px;
+        transition: 2s;
     }
-    .hamburger .line{
-        position: relative;
-        width: 30px;
-        height: 3px;
-        background-color: white;
-        margin: 5px 0;
-        top: 5px;
+    .header-content li a{
+        display: block;
+        width: 55%;
+        margin-left: 15__0px;
+        line-height: 2;
+        background-color: #ffaa17;
+        color: black;
+        float: right;
+        text-align: center;
     }
-    .nav .active{
+    .header-content ul li:hover a{
+        color: white;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 50px;
+        bottom: 30px;
+    }
+    /* .nav .active{
         height: 300px;
     }
     .nav{
@@ -50,19 +62,27 @@
         margin: 80px auto 0 auto;
         text-align: center;
         transition: 0.5s;
-        opacity: 0;
+        position: fixed;
+        right: -100%;
     }
     .nav .active ul{
         position: relative;
         
         opacity: 1;
     }
+    .nav li{
+        display: block;
+        width: 50%;
+        background-color: #ffaa17;
+        float: right;
+    }
     .nav a{
         position: relative;
         right: 20px;
         line-height: 2;
         color: black;
-    }
+    } */
+    
     /* home start */
     .HOME-CONTAINER{
         margin-top: 100px;
@@ -581,9 +601,8 @@
         width: 400px;
         height: 400px;
         position: absolute;
-        top: 505rem;
+        top: 474rem;
         left: 50%;
-        background-color: #676a6f;
         transform: translate(-50%,-50%);
     }
     .indicator{
@@ -633,7 +652,7 @@
         height: 50%;
         width: 90%;
         position: absolute;
-        top: 535rem;
+        top: 506rem;
         left: 5%;
         background-color: white;
         border-radius: 20px;
