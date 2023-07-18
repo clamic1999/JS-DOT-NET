@@ -310,7 +310,7 @@
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 475rem;
+    margin-top: -30rem;
     left: 50%;
     background-color: #676a6f;
     transform: translate(-50%,-50%);
@@ -362,7 +362,7 @@
         height: 40%;
         width: 90%;
         position: absolute;
-        top: 505rem;
+        margin-top: -30rem;
         left: 5%;
         background-color: white;
         border-radius: 20px;
@@ -601,7 +601,7 @@
         width: 400px;
         height: 400px;
         position: absolute;
-        top: 475rem;
+        top: 505rem;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -652,7 +652,7 @@
         height: 50%;
         width: 90%;
         position: absolute;
-        top: 507rem;
+        top: 535rem;
         left: 5%;
         background-color: white;
         border-radius: 20px;

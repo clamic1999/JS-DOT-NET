@@ -210,7 +210,9 @@ header .nav a:hover{
 
 .project-content3{
     padding: 40px;
-
+    justify-content: center;
+    display: flex;
+    text-align: center;
 }
 .project-content3 .project-img img{
     border-radius: 5px;
@@ -373,7 +375,7 @@ header .nav a:hover{
     width: 800px;
     height: 350px;
     position: absolute;
-    top: 280rem;
+    top: 295rem;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -430,10 +432,10 @@ header .nav a:hover{
     padding: 20px;
 }
 .client-content2 .form{
-    height: 70%;
+    height: 50%;
     width: 50%;
     position: absolute;
-    top: 310rem;
+    top: 323rem;
     left: 25%;
     background-color: white;
     border-radius: 20px;
