@@ -107,14 +107,14 @@
     }
     .HOME-CONTAINER .home P{
         position: relative;
-        right: 23px;
+        right: 5px;
         bottom: 50px;
-        text-align: center;
+        
         font-size: 20px;
     }
     .HOME-CONTAINER .home .btn2{
         position: relative;
-        margin-left: 30%;
+        
         bottom: 40px;
         padding: 15px 35px;
         font-size: 20px;
@@ -441,9 +441,15 @@
     }
     .HOME-CONTAINER .home #tit2{
         position: relative;
-        left: 40%;
+        left: 30%;
         bottom: 12.3%;
         font-size: 40px;
+    }
+    .HOME-CONTAINER .home P{
+        position: relative;
+        padding-top: 40px;
+        padding-left: 50px;
+        font-size: 20px;
     }
     .home-img img{
         padding-top: 50px;
@@ -601,7 +607,7 @@
         width: 400px;
         height: 400px;
         position: absolute;
-        top: 505rem;
+        top: 525rem;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -652,7 +658,7 @@
         height: 50%;
         width: 90%;
         position: absolute;
-        top: 535rem;
+        top: 550rem;
         left: 5%;
         background-color: white;
         border-radius: 20px;
