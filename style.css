@@ -6,6 +6,16 @@
     text-decoration: none;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+:root{
+    --navlinks-font-size: 20px;
+    --navlinks-bg-clr: #ffad4f;
+    --btn-padding: 15px 35px;
+    --btn-bg-clr: #ffad4f;
+    --btn-clr: black;
+    --h1-font-size: 70px;
+    --p-font-size: 15px;
+
+}
 html{
     overflow-x: hidden;
 }
@@ -38,7 +48,7 @@ header{
 .header-content .active{
     color: #ffad4f;
 }
-/* .nav ul{
+.nav ul{
     display: flex;
     margin-left: 35%;
     margin-top: -20px;
@@ -59,7 +69,7 @@ header{
 }
 header .nav a:hover{
     color: #ffad4f;
-} */
+} 
 .menu{
     display: none;
 }
